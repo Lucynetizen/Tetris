@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    background: #000; /* Background color for the body */
+    display: flex; /* Centers content vertically and horizontally */
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    font-family: 'Ubuntu', sans-serif; /* Apply the imported Ubuntu font */
+    color: #fff; /* Default text color for the body */
+}
+
+/* Style for the game canvas */
+canvas {
+    border: 3px solid #304550; /* Adds a dark border to the canvas */
+    background-color: #e1eeb0; /* Background color for the canvas */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow effect to the canvas */
+}
+
+/* Style for the score, level, and lines labels */
+.info-label {
+    text-align: center;
+    font-weight: 500; /* Medium font weight for labels */
+    font-size: 24px; /* Size of the text */
+    color: #fff; /* Text color */
+    margin: 10px 0; /* Margin around the labels */
+}
+
+/* Optional: Add more styles for game controls, buttons, or other elements */
